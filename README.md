@@ -12,7 +12,9 @@ Modern HTTP is a tiny HTTP client. It uses Fetch, and returns Promises, but save
 
 ## Usage
 
+```javascript
 import httpClient from './modern-http.js'
+```
 
 ### GET
 
@@ -24,7 +26,7 @@ let response = await httpClient.get('/api/v1/subscription/123456')
 
 ```javascript
 let response = await httpClient.post('/api/v1/subscription', {
-    email: window.serverVars.email,
+    email: serverVars.email,
     paymentSourceID: source.id,
     planID 
 })
