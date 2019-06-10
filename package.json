@@ -1,0 +1,14 @@
+{
+  "name": "modern-http",
+  "version": "1.0.0",
+  "description": "A simple, high level that uses Fetch but saves boilerplate code",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": ["http", "client", "fetch"],
+  "type": "module",
+  "module": "index.js",
+  "author": "Mike MacCana <mike.maccana@gmail.com",
+  "license": "MIT"
+}
